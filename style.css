@@ -8,10 +8,12 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-header{
+
+header {
     height: 80px;
     background-color: bisque;
     display: flex;
@@ -21,11 +23,13 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
-header #logo{
+
+header #logo {
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
 }
-header nav{
+
+header nav {
     display: flex;
     flex-direction: row;
     height: 70px;
@@ -33,16 +37,19 @@ header nav{
     align-items: center;
     justify-content: space-around;
 }
-header nav>li{
+
+header nav>li {
     list-style: none;
 }
-header nav li a{
+
+header nav li a {
     text-decoration: none;
     font-size: 25px;
     color: black;
     font-weight: bold;
 }
-main #intro{
+
+main #intro {
     height: 870px;
     background-image: url('https://pbs.twimg.com/media/GuiE4dcWQAANaSN?format=jpg&name=large');
     background-repeat: no-repeat;
@@ -52,48 +59,65 @@ main #intro{
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 30px;    
+    padding-top: 30px;
 }
-#Movies{
+
+#Movies {
     height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: bisque;
 }
-#Movies h2{
+
+#Movies h2 {
     font-size: 50px;
 }
-#ak-movies img{
+
+#ak-movies img {
     height: 270px;
     width: 200px;
     border-radius: 20px;
     margin-right: 15px;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-#ak-movies img:hover{
+
+#ak-movies img:hover {
     background-color: white;
     opacity: 0.3;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: 0.5s;
 }
-#listOfMovies{
+
+#listOfMovies {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
+
 #Passion{
     height: 900px;
     background-image: url('https://en.endurance-info.com/sites/default/files/styles/image_richtext/public/2024-12/AjithKumarRacing_HelenaClancy-4159%20%281%29.jpg?itok=RYoxN89H');
     background-size: cover;
+    opacity: 0.3;
+    position: relative;
+    
 }
-#Personal{
+#textOverlay{
+    color: red;
+    position: relative;
+    bottom: 450px;
+    left: 50%;
+}
+#Personal {
     height: 900px;
     background-color: brown;
 }
-footer{
+
+footer {
     height: 80px;
     text-align: center;
 }
